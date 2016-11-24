@@ -5,3 +5,43 @@ Breakpoints:
 667px - 1024px; RED
 1024px - 1600px; BLUE
 */
+@media(max-width:375px) and (min-width:320px) {
+    body{
+       background:green;
+}  
+    
+}
+@media(max-width:667px) and (min-width:376px) {
+    body {
+        background: yellow;
+    }
+}
+
+@media(max-width:1024px) and (min-width: 667px) {
+    body {
+        background: red;
+    }
+}
+@media(max-width:1600px) and (min-width:1024px) {
+    body {
+        background: blue;
+    }
+} 
+body {
+    text-align: center;
+}
+@media (max-width:800px) {
+    .victima {
+       width: 500px; 
+    }
+}
+@media (max-width:500px) {
+    .victima {
+        width: 300px;
+    }
+}
+@media(max-width:300px) {
+    .victima {
+        width: 100%;
+    }
+}
